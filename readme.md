@@ -23,6 +23,6 @@ To be considered a complete submission, your iPhone should have the following an
 * Add the camera and speaker above the screen
 
 **Bonus #2**
-* Add app icons to the screen homepage
 * Add the status bar to the top of the screen
 * Add 4 icons to the home row
+* Add your favorite app icons to the home screen

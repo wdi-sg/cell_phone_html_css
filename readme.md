@@ -1,4 +1,4 @@
-# CSS & HTML Cell Phone
+# HTML & CSS Cell Phone
 
 Your project is to recreate an iPhone using what we've learned about HTML and CSS.
 

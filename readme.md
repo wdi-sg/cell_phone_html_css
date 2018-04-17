@@ -2,10 +2,6 @@
 
 Your project is to recreate an iPhone using what we've learned about HTML and CSS.
 
-## Plagiarism
-
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md), specifically on using work you find online and on work you do with other students.
-
 ## Deliverables
 
 Your submission should include the necessary boilerplate for an HTML5 page. On top of that, you should have everything listed in the MVP section below.

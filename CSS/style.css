@@ -1,0 +1,72 @@
+.container{
+/*	border: 1px solid black;*/
+	width: 320px;
+	height: 550px;
+	display: flex;
+	justify-content: center;
+}
+
+.outerFrame{
+	border: 3px solid #d2d0d0;
+	width: 250px;
+	height: 520px;
+	border-radius: 35px;
+	margin: auto;
+}
+
+.innerBody{
+	height:410px;
+	width:220px;
+	border: 2px solid #7a7878;
+	margin: 50px auto 0px auto;
+	background-image: url("../Images/iphoneBackground.jpg");
+	background-size:cover;
+}
+
+.outerButton{
+	width:4px;
+	height:40px;
+	position:absolute;
+	background:#e3e4e6;
+}
+#button1{
+	margin:110px 0px 0px -7px;
+}
+#button2{
+	margin:160px 0px 0px -7px;
+}
+#button3{
+	margin:110px 0px 0px 253px;
+}
+#button4{
+	position:absolute;
+	width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:black;
+    margin:25px 0px 0px 80px;
+}
+#button5{
+	position:absolute;
+	width:50px;
+	height:4px;
+	border-radius: 2px;
+	background: black;
+	margin:28px 0px 0px 105px;
+}
+#button6{
+	position:absolute;
+	width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background:black;
+    margin:12px 0px 0px 125px;	
+}
+#button7{
+	position:absolute;
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin:475px 0px 0px 110px;		
+}

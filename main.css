@@ -1,0 +1,184 @@
+
+#aluminum_body {
+	
+	height: 600px;
+	width: 300px;
+	border-radius: 25px;
+	z-index: 5;
+	background: linear-gradient(to bottom, #E5E5E5, lightgrey);
+}
+
+#white_body {
+	background-color: white;
+	height:590px;
+	width: 290px;
+	border-radius: 25px;
+	z-index: 3;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+body {
+	position: relative;
+}
+
+#white_body {
+	background-color: white;
+	height:590px;
+	width: 290px;
+	border-radius: 25px;
+	z-index: 3;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#black_border {
+	background-color: black;
+	height:450px;
+	width: 250px;
+	border-radius: 5px;
+	z-index: 6;
+	position: absolute;
+	top: 70px;
+	left: 25px;
+}
+
+#screen {
+	background-image: url("wallpaper.jpg"); 
+	background-position: center;
+	background-size: cover;
+	height:444px;
+	width: 244px;
+	border-radius: 5px;
+	z-index: 7;
+	position: absolute;
+	top: 73px;
+	left: 28px;
+}
+
+#button {
+	height: 50px;
+	width: 50px;
+	background: linear-gradient(to bottom, lightgrey, white, grey);
+	border-radius: 50%;
+	position: absolute;
+	z-index: 8;
+	top: 533px;
+	left: 125px;
+}
+
+#white_button {
+	height: 46px;
+	width: 46px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 9;
+	top: 535px;
+	left: 127px;
+}
+
+#camera {
+	height: 12px;
+	width: 12px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 35px;
+	left: 110px;
+}
+
+#speaker {
+	height: 5px;
+	width: 50px;
+	background-color: black;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 39px;
+	left: 140px;
+}
+
+#small_speaker {
+	height: 7px;
+	width: 7px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 20px;
+	left: 160px;
+}
+
+#up_volume {
+	height: 50px;
+	width: 4px;
+	background-color: lightgrey;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 100px;
+	left: -2px;
+}
+
+#down_volume {
+	height: 50px;
+	width: 4px;
+	background-color: lightgrey;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 160px;
+	left: -2px;
+}
+
+#on_button {
+	height: 50px;
+	width: 4px;
+	background-color: lightgrey;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 125px;
+	left: 300px;
+}
+
+.lines {
+	height: 13px;
+	width: 4px;
+	background-color: #C0C0C0;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+}
+
+.one {
+	z-index: 10;
+	top: 50px;
+	left: 1px;
+}
+
+.two {
+	z-index: 10;
+	top: 540px;
+	left: 1px;
+}
+
+.three {
+	z-index: 10;
+	top: 50px;
+	left: 296px;
+}
+
+.four {
+	z-index: 10;
+	top: 540px;
+	left: 296px;
+}
+
+
+
+

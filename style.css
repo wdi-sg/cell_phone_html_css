@@ -1,0 +1,102 @@
+.wrapper {
+	width: 650px;
+	height: 1250px;
+	margin: 0 auto;
+}
+
+.phone {
+	position: relative;
+	width: 600px;
+	height: 1200px;
+	background: whitesmoke;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 75px;
+	border: solid 8px lightgray;
+}
+
+
+.phone:before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 8px;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 10px;
+}
+
+.phone:after {
+	content: '';
+	display: block;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	border-radius: 50%;
+	border: solid 8px black;
+}
+
+.circle {
+	height: 100%
+	width: 100%
+}
+
+.circle:before {
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 50%;
+}
+
+.circle:after {
+	content: '';
+	display: block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 60px;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 50%;
+}
+
+.phone .content {
+	position: absolute;
+	width: 540px;
+	height: 920px;
+	top: 130px;
+	left: 25px;
+	border: solid 5px black;
+	border-radius: 5px;
+}
+
+.content{
+	background-image: url("content.jpeg")
+}
+
+/*.phone:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}*/

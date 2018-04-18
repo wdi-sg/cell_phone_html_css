@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iFone</title>
+    <style>
+        * {
+            box-sizing:border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            background: gray;
+        }
+
+        .container {
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid black;
+            height: 800px;
+            width: 400px;
+        }
+
+        .phone {
+            display: grid;
+            grid-template-areas:
+                        "t t t"
+                        "l m r"
+                        "b b b";
+            grid-gap:0;
+        }
+
+        .top {
+            grid-area: t;
+            height: 80px;
+            text-align:center;
+        }
+
+        .mid-left {
+            position: relative;
+            grid-area: l;
+            justify-self: end;
+            width: 40px;
+            text-align:right;
+        }
+
+        .screen {
+            margin: 0 auto;
+            z-index: 1;
+            height: 640px;
+            width: 320px;
+            background-color: gray;
+            border: 2px solid black;
+            color: white;
+            grid-area: m;
+            background-image:url("./background.jpg");
+            background-size:cover;
+            background-position:center;
+
+        }
+
+        .mid-right {
+            grid-area: r;
+            justify-self: start;
+            width: 40px;
+            position: relative;
+        }
+
+        .bottom {
+            grid-area: b;
+            height: 80px;
+            text-align:center;
+        }
+
+        .phone-top {
+            height: 60px;
+            width: 360px;
+            background-color: white;
+            border-left: 2px solid gray;
+            border-right: 2px solid gray;
+            border-top: 2px solid gray;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+            margin: 20px auto 0 auto;
+        }
+
+        .phone-left {
+            height: 100%;
+            width: 20px;
+            background-color: white;
+            border-left: 2px solid gray;
+            margin-left: 20px;
+        }
+
+        .phone-right {
+            height: 100%;
+            width: 20px;
+            background-color: white;
+            border-right: 2px solid gray;
+            margin-right: 20px;
+        }
+
+        .phone-bottom {
+            height: 60px;
+            width: 360px;
+            background-color: white;
+            border-left: 2px solid gray;
+            border-right: 2px solid gray;
+            border-bottom: 2px solid gray;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            margin: 0 auto 20px auto;
+        }
+
+        .home-button {
+            position: relative;
+            top: 10px;
+            margin: 0 auto;
+            width: 40px;
+            height: 40px;
+            border-width: 3px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 20px;
+        }
+
+        .side-button {
+            height: 60px;
+            width: 5px;
+            background-color: gray;
+        }
+
+        .vol-up {
+            top: 80px;
+            left: 15px;
+            position: absolute;
+        }
+
+        .vol-down {
+            top: 160px;
+            left: 15px;
+            position: absolute;
+        }
+
+        .power-button {
+            top: 80px;
+            right: 15px;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="phone">
+            <div class="top">
+                <div class="phone-top"></div>
+            </div>
+            <div class="mid-left">
+                <div class="side-button vol-up"></div>
+                <div class="side-button vol-down"></div>
+                <div class="phone-left">
+                </div>
+            </div>
+            <div class="screen">
+            </div>
+            <div class="mid-right">
+                <div class="phone-right">
+                    <div class="side-button power-button"></div>
+                </div>
+            </div>
+            <div class="bottom">
+                    <div class="phone-bottom">
+                        <div class="home-button">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

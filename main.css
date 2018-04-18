@@ -1,0 +1,323 @@
+
+#aluminum_body {
+	
+	height: 600px;
+	width: 300px;
+	border-radius: 25px;
+	z-index: 5;
+	background: linear-gradient(to bottom, #E5E5E5, lightgrey);
+}
+
+body {
+	position: relative;
+}
+
+#white_body {
+	background-color: white;
+	height:590px;
+	width: 290px;
+	border-radius: 25px;
+	z-index: 3;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#black_border {
+	background-color: black;
+	height:450px;
+	width: 250px;
+	border-radius: 5px;
+	z-index: 6;
+	position: absolute;
+	top: 70px;
+	left: 25px;
+}
+
+#screen {
+	background-image: url("wallpaper.jpg"); 
+	background-position: center;
+	background-size: cover;
+	height:444px;
+	width: 244px;
+	border-radius: 5px;
+	z-index: 7;
+	position: absolute;
+	top: 73px;
+	left: 28px;
+}
+
+#outer_home_button {
+	height: 50px;
+	width: 50px;
+	background: linear-gradient(to bottom, lightgrey, white, grey);
+	border-radius: 50%;
+	position: absolute;
+	z-index: 8;
+	top: 533px;
+	left: 125px;
+}
+
+#home_button {
+	height: 46px;
+	width: 46px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 9;
+	top: 535px;
+	left: 127px;
+}
+
+#camera {
+	height: 12px;
+	width: 12px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 35px;
+	left: 110px;
+}
+
+#speaker {
+	height: 5px;
+	width: 50px;
+	background-color: black;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 39px;
+	left: 140px;
+}
+
+#small_speaker {
+	height: 7px;
+	width: 7px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 20px;
+	left: 160px;
+}
+
+#up_volume {
+	height: 50px;
+	width: 4px;
+	background-color: lightgrey;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 100px;
+	left: -2px;
+}
+
+#down_volume {
+	height: 50px;
+	width: 4px;
+	background-color: lightgrey;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 160px;
+	left: -2px;
+}
+
+#on_button {
+	height: 50px;
+	width: 4px;
+	background-color: lightgrey;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+	top: 125px;
+	left: 300px;
+}
+
+.lines {
+	height: 13px;
+	width: 4px;
+	background-color: #C0C0C0;
+	border-radius: 25px;
+	position: absolute;
+	z-index: 10;
+}
+
+.one {
+	z-index: 10;
+	top: 50px;
+	left: 1px;
+}
+
+.two {
+	z-index: 10;
+	top: 540px;
+	left: 1px;
+}
+
+.three {
+	z-index: 10;
+	top: 50px;
+	left: 296px;
+}
+
+.four {
+	z-index: 10;
+	top: 540px;
+	left: 296px;
+}
+
+.clock {
+	background-image: url("clock.png"); 
+	background-position: center;
+	background-size: cover;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	z-index: 11;
+}
+
+.map {
+	background-image: url("map.png"); 
+	background-position: center;
+	background-size: cover;
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 11;
+}
+
+.mail {
+	background-image: url("mail.png"); 
+	background-position: center;
+	background-size: cover;
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 100px;
+	left: 157px;
+	z-index: 11;
+}
+
+.setting {
+	background-image: url("setting.png"); 
+	background-position: center;
+	background-size: cover;
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 100px;
+	left: 215px;
+	z-index: 11;
+}
+
+.phone {
+	background-image: url("phone.png"); 
+	background-position: center;
+	background-size: cover;
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 170px;
+	left: 40px;
+	z-index: 11;
+}
+
+.photo {
+	background-image: url("photo.png"); 
+	background-position: center;
+	background-size: cover;
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	top: 170px;
+	left: 99px;
+	z-index: 11;
+}
+
+#reception_bar_one, #reception_bar_two, #reception_bar_three, #reception_bar_four {
+	position: absolute;
+	z-index: 10;
+	border-radius: 25px;
+}
+
+#reception_bar_one{
+	height: 8px;
+	width: 3px;
+	top: 80px;
+	left: 45px;
+	background-color: white;
+}
+
+#reception_bar_two{
+	height: 6px;
+	width: 3px;
+	top: 82px;
+	left: 40px;
+	background-color: white;
+}
+
+#reception_bar_three{
+	height: 4px;
+	width: 3px;
+	top: 84px;
+	left: 35px;
+	background-color: white;
+}
+
+#reception_bar_four{
+	height: 10px;
+	width: 3px;
+	top: 78px;
+	left: 50px;
+	background-color: #505050;
+}
+
+
+
+.network {
+	color: white;
+	position: absolute;
+	top: 79px;
+	left: 55px;
+	z-index: 10;
+	font-size: 9px;
+	font-family: arial;
+}
+
+.time {
+	color: white;
+	position: absolute;
+	top: 79px;
+	left: 130px;
+	z-index: 10;
+	font-size: 9px;
+	font-family: arial;
+}
+
+.battery_outer {
+	background-color: white;
+	position: absolute;
+	z-index: 10;
+	border-radius: 1px;
+	height: 6px;
+	width: 15px;
+	top: 80px;
+	left: 250px;
+	border: 1px solid grey;
+}
+
+.battery_percent {
+	color: white;
+	position: absolute;
+	top: 79px;
+	left: 220px;
+	z-index: 10;
+	font-size: 9px;
+	font-family: arial;
+}
